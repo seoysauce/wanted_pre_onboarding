@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import CarouselItem from "./CarouselItem";
 import banner from "../data/banner";
 import "../SCSS/Carousel.scss";
@@ -33,21 +33,26 @@ export default function Carousel() {
     };
   });
 
-  const handleClick = useCallback((button) => {
-    if (button === "prev") {
-      if (currentIndex <= 1) {
-        setCurrentIndex(bannerNum - 2);
-      } else {
-        // setCurrentIndex();
-      }
-    } else if (button === "next") {
-      if (currentIndex >= bannerNum - 2) {
-        setCurrentIndex(1);
-      } else {
-        // setCurrentIndex();
-      }
-    }
-  });
+  // const handleClick = useCallback((button) => {
+  //   if (button === "prev") {
+  //     if (currentIndex <= 1) {
+  //       setCurrentIndex(bannerNum - 2);
+  //     } else {
+  //       // setCurrentIndex();
+  //     }
+  //   } else if (button === "next") {
+  //     if (currentIndex >= bannerNum - 2) {
+  //       setCurrentIndex(1);
+  //     } else {
+  //       // setCurrentIndex();
+  //     }
+  //   }
+  // });
+
+  const handleClick = () => {
+    console.log("click");
+    setCurrentIndex(1);
+  };
 
   return (
     <div className="Main_Main">
@@ -60,7 +65,7 @@ export default function Carousel() {
                 width: containerWidth,
                 transform: `translateX(${-translateX}px)`,
                 transition:
-                  currentIndex == 1 || currentIndex >= bannerNum - 2
+                  currentIndex === 1 || currentIndex >= bannerNum - 2
                     ? "none"
                     : "350ms all ease-in-out",
               }}>
