@@ -1,0 +1,32 @@
+.Main_Main {
+  @media (min-width: 1200px) {
+    padding-top: 25px;
+  }
+}
+
+.TopBanner_TopBanner {
+  position: relative;
+  overflow: hidden;
+}
+
+.slick-slider {
+  margin-bottom: 0;
+}
+
+.slick-list {
+  padding: 0px 40px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+}
+
+.slick-track {
+  //   opacity: 1;
+  // transform:
+  //   width: 11920px;
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+}
