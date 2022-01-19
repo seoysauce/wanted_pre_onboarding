@@ -28,4 +28,15 @@ https://seoysauce-wanted-pre-onbording.netlify.app
 
 4. Netlify로 배포
 
+## 4. 디렉토리 구조
 
+```
+.
+├── public
+└── src
+    ├── SCSS
+    ├── components
+    |   └── icons
+    ├── data
+    └── utils
+```
