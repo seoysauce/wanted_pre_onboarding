@@ -4,6 +4,8 @@ React 프론트엔드 프리온보딩 선발과제
 
 ## 1. 배포 주소
 
+https://seoysauce-wanted-pre-onbording.netlify.app
+
 ## 2. 구현 사항
 
 1. 상단 GNB(Global Navigation Bar)
