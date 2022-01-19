@@ -2,7 +2,9 @@
 
 React 프론트엔드 프리온보딩 선발과제
 
-## 1. 구현 사항
+## 1. 배포 주소
+
+## 2. 구현 사항
 
 1. 상단 GNB(Global Navigation Bar)
 

@@ -20,7 +20,7 @@ export default function Carousel() {
     setBannerWidth(innerWidth - 80);
     setContainerWidth((innerWidth - 80) * bannerNum);
   };
-  const translateX = bannerWidth * currentIndex;
+  const translateX = bannerWidth * currentIndex - 30;
   const moveToNext = () => {
     console.log("next");
   };
