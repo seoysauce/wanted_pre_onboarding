@@ -1,9 +1,15 @@
 import React from "react";
 import "../SCSS/CarouselItem.scss";
 
-export default function CarouselItem({ title, description, img, kind }) {
+export default function CarouselItem({
+  bannerWidth,
+  title,
+  description,
+  img,
+  kind,
+}) {
   return (
-    <div className="slick-slide" style={{ width: "1060px" }}>
+    <div className="slick-slide" style={{ width: bannerWidth }}>
       <div>
         <div
           className="home__mainBanner"
