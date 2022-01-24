@@ -15,12 +15,12 @@ React 프론트엔드 프리온보딩 선발과제
 
 ## 1. 결과물
 
-- 반응형 웹
+- 반응형 구현
 
 ![responsive](https://user-images.githubusercontent.com/65898861/150792055-6f37dead-441a-479a-853e-20de8b832a78.gif)
 
 
-- 슬라이드(캐러셀)동작
+- 슬라이드(캐러셀) 구현
 
 ![carousel](https://user-images.githubusercontent.com/65898861/150778721-f57e4c68-27f4-4bb1-a440-16c2d5f38369.gif)
 
